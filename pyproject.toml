@@ -1,8 +1,8 @@
 [project]
-name = "vibe-trading-ai"
-version = "0.1.11"
+name = "vibetrading-"
+version = "0.1.0"
 description = "Natural-language finance research AI agent with backtesting"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 license = "MIT"
 readme = "README.md"
 authors = [
