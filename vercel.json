@@ -1,7 +1,14 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "agent/api_server.py": {
-      "runtime": "vercel-python@0.1.0"
+      "maxDuration": 60
     }
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "agent/api_server.py"
+    }
+  ]
 }
